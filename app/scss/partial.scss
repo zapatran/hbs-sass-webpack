@@ -1,0 +1,12 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+img {
+  max-width: 100%;
+}
+.test {
+  // start referencing urls with '/' so that css loader doesn't translate it
+  background-image: url(/images/test.jpg);
+  width: 100px;
+  height: 100px;
+}
